@@ -1,6 +1,11 @@
-Hello there, welcome to Darwin Donovan Darmadi's Portofolio Project, this includes all my notable projects and profile summary.
+### Hello there, welcome to Darwin Donovan Darmadi's Portofolio Project
+The website includes all my notable projects and profile summary.
+
 This Portofolio is still WIP especially on the Projects Section, I'll include more interactivity or renew the project in the future for more simplicity. Stay Tuned!
+
 This project is built with [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
+
+It has been temporarily deployed with [Vercel](https://vercel.com/). Here is the link, [darwindonovan.vercel.app](https://darwindonovan.vercel.app/)
 
 ## Learn More
 
