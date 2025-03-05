@@ -47,14 +47,19 @@ const contacts = {
 
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "Organizational Experience",
+  title: "Working Experience",
   description:
-    "Here are my experience that I have acquired over the years.\nFor now it is only organizational experience since I am unemployed.",
+    "Here are my experience that I have acquired over the years.\nCurrently learning and gaining experience as a Fullstack Developer intern at Accelist Lentera Indonesia.",
   items: [
+    {
+      organization: "PT Accelist Lentera Indonesia",
+      position: "Fullstack Developer Intern",
+      duration: "Feb 2024 - Present",
+    },
     {
       organization: "BINUS Game Development Club (BGDC)",
       position: "Community Development Veteran Activist",
-      duration: "Mar 2023 - Present",
+      duration: "Mar 2023 - Mar 2024",
     },
     {
       organization:
@@ -219,9 +224,7 @@ const Resume = () => {
                           className="bg-[#232329] max-h-[250px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <div className="flex flex-row">
-                            <span className="text-accent">
-                              {item.duration}
-                            </span>
+                            <span className="text-accent">{item.duration}</span>
                             <span className="text-accent ml-4 capitalize italic">
                               ({item.type})
                             </span>
